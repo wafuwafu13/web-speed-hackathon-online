@@ -50,5 +50,5 @@ module.exports = {
 
   devtool: JSON.stringify(process.env.NODE_ENV) === 'production' ? false : 'inline-source-map',
 
-  mode: 'none',
+  mode: 'production',
 };
